@@ -1,10 +1,18 @@
+import { Roboto, Lora } from '@next/font/google';
+
+const roboto = Roboto({
+  variable: '--font-roboto',
+  weight: "700",
+});
+const lora = Lora({
+  variable: '--font-lora',
+});
+
 export default function Home() {
   return (
     <>
-     <select name="company-size" id="company-size"  className="selectInput">
-      <option value="">Please select</option>
-      <option value="apple">Apple</option>
-    </select>
+    <p className={`${lora.variable}`}> Continue with Facebook</p>
+
     </>
   )
 }

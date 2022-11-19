@@ -1,16 +1,16 @@
-@import './base.css';
+/* @import './base.css'; */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-@layer components {
+/* @layer components {
   .linkBtn {
      @apply cursor-pointer border-0 inline-block px-5 py-4  tracking-wider font-semibold text-sm no-underline rounded-lg bg-white text-black
   }
-}
+} */
 
 @layer base {
-  [type="text"],
+  /* [type="text"],
   [type="email"],
   [type="url"],
   [type="password"],
@@ -23,10 +23,10 @@
   [type="time"],
   [type="week"],
   [multiple],
-  textarea,
+  textarea, */
 
   .selectInput {
-    @apply w-full bg-white rounded-none shadow-sm focus:border-gray-400 focus:ring-gray-400 mr-2 pl-2;
+    @apply w-full rounded-none shadow-sm focus:border-gray-400 focus:ring-gray-400 mr-2 pl-2;
   }
   [type="checkbox"],
   [type="radio"] {
